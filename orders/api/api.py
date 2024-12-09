@@ -22,7 +22,7 @@ try:
         dbname="testdb",
         user="postgres",
         password="postgres",
-        host="localhost",
+        host="db",
         port="5432"
     )
     cur = conn.cursor()
