@@ -9,6 +9,6 @@ spec:
     app: prometheus-prometheus-kube-prometheus-prometheus-0
   ports:
     - protocol: TCP
-      port: 9090           # Внутренний порт сервиса
-      targetPort: 9090     # Порт, используемый контейнером
-      nodePort: 30090      # Статический порт на узле
+      port: 9090          
+      targetPort: 9090     
+      nodePort: 30090      
